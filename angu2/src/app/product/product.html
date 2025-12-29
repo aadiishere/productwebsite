@@ -1,0 +1,21 @@
+<div class="row">
+@for (item of products; track item.id) {
+  <div class="col-md-4 mb-4">
+    <div class="card h-100 shadow">
+      <img
+        [src]="item.image"
+        class="card-img-top"
+        alt="{{ item.title }}"
+      >
+
+      <div class="card-body">
+        <h5 class="card-title">{{ item.title }}</h5>
+        <p class="card-text">{{ item.description }}</p>
+        <a [routerLink]="['/singleview-list', item.id]">
+            Go to
+        </a>
+      </div>
+
+    </div>
+  </div>
+}

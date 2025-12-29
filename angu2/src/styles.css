@@ -1,0 +1,59 @@
+/* Modern Dark Theme */
+body {
+  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+}
+
+/* Navbar Styling */
+.navbar {
+  background: rgba(0, 0, 0, 0.8) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 2px solid #007bff;
+}
+
+.navbar-brand {
+  color: #00d4ff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00d4ff !important;
+}
+
+/* Card Styling */
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+}
+
+.card-title {
+  color: #00d4ff;
+}
+
+/* Button Styling */
+.btn-primary {
+  background: linear-gradient(45deg, #007bff, #00d4ff);
+  border: none;
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Footer Styling */
+footer {
+  background: rgba(0, 0, 0, 0.8);
+  border-top: 2px solid #007bff;
+}
